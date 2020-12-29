@@ -9,6 +9,7 @@
 
 int main() {
     for (int i = 1; i <= 10; i++) {
+        // 1.上半段的情况
         if (i <= 5) {
             // 1.控制*前的空格
             for (int k = i; k <= 4; k++) {
@@ -18,7 +19,7 @@ int main() {
             for (int j = 1; j <= i; j++) {
                 printf("* ");
             }
-        } else {
+        } else { // 2.下半段的情况
             for (int k = 4; k >= 10 - i; k--) {
                 printf(" ");
             }
