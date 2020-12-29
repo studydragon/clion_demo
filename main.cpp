@@ -4,7 +4,7 @@
 //    std::cout << "Hello, World!" << std::endl;
 //    return 0;
 //}
-#include <stdio.h>
+#include <cstdio>
 #include <cstdlib>
 
 int main() {
