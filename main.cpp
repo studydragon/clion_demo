@@ -4,7 +4,7 @@
 //    std::cout << "Hello, World!" << std::endl;
 //    return 0;
 //}
-#include <stdio.h>
+#include <cstdio>
 #include <cstdlib>
 
 int main() {
@@ -14,6 +14,7 @@ int main() {
             for (int k = i; k <= 4; k++) {
                 printf(" ");
             }
+            // 2.控制*输出
             for (int j = 1; j <= i; j++) {
                 printf("* ");
             }
